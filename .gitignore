@@ -1,0 +1,26 @@
+
+###> symfony/framework-bundle ###
+.env
+.env.local
+.env.local.php
+.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+### Doctrine migrations ###
+migrations/*.sql
+### JWT keys ###
+config/jwt/*.pem
+### Docker volumes ###
+docker/volumes/
+### IDE ###
+.idea/
+.vscode/
+*.iml
+### OS ###
+.DS_Store
+Thumbs.db
+/migrations/
