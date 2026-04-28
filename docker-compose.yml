@@ -6,9 +6,9 @@ services:
     container_name: runner_db
     restart: unless-stopped
     environment:
-      POSTGRES_DB: ${POSTGRES_DB:-runner_db}
-      POSTGRES_USER: ${POSTGRES_USER:-runner_user}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-runner_secret}
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
     ports:
       - "5432:5432"
     volumes:
@@ -46,9 +46,11 @@ services:
       - ./:/app
       - ./var:/app/var
     environment:
-      XDEBUG_MODE: "debug"
-      XDEBUG_CONFIG: "client_host=host.docker.internal client_port=9003"
+      XDEBUG_MODE: debug
+      XDEBUG_CONFIG: "client_host=host.docker.internal client_port=9003 log=/tmp/xdebug.log"
       PHP_IDE_CONFIG: "serverName=runner"
+      XDEBUG_LOG: "/tmp/xdebug.log"
+      XDEBUG_SESSION: PHPSTORM
       APP_ENV: ${APP_ENV}
       APP_SECRET: ${APP_SECRET}
       DATABASE_URL: postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB}?serverVersion=15&charset=utf8
@@ -59,8 +61,8 @@ services:
       JWT_SECRET_KEY: ${JWT_SECRET_KEY}
       JWT_PUBLIC_KEY: ${JWT_PUBLIC_KEY}
       JWT_PASSPHRASE: ${JWT_PASSPHRASE}
-    ports:
-      - "9003:9003"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
     depends_on:
       postgres:
         condition: service_healthy

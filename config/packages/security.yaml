@@ -16,11 +16,17 @@ security:
                 password_path: password
                 success_handler: lexik_jwt_authentication.handler.authentication_success
                 failure_handler: lexik_jwt_authentication.handler.authentication_failure
+        api_refresh_token:
+            pattern: ^/api/refresh
+            stateless: true
+            refresh_jwt:
+                check_path: api_refresh_token
         api:
             pattern: ^/api
             stateless: true
             jwt: ~
     access_control:
         - { path: ^/api/login, roles: PUBLIC_ACCESS }
+        - { path: ^/api/refresh, roles: PUBLIC_ACCESS }
         - { path: ^/api/register, roles: PUBLIC_ACCESS }
         - { path: ^/api, roles: ROLE_USER }
