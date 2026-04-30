@@ -1,0 +1,13 @@
+{
+  "name": "wasteland",
+  "grid": [
+    ["sand", "sand", "road", "road", "sand", "sand"],
+    ["mud", "sand", "road", "danger", "sand", "sand"],
+    ["mud", "mud", "road", "road", "sand", "sand"],
+    ["mud", "mud", "danger", "road", "mud", "sand"],
+    ["mud", "mud", "road", "danger", "mud", "mud"],
+    ["sand", "mud", "danger", "danger", "mud", "mud"],
+    ["sand", "sand", "road", "road", "mud", "mud"],
+    ["sand", "sand", "road", "road", "sand", "mud"]
+  ]
+}

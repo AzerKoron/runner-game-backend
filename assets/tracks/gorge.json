@@ -1,0 +1,13 @@
+{
+  "name": "gorge",
+  "grid": [
+    ["sand", "sand", "road", "road", "sand", "sand"],
+    ["wall", "sand", "danger", "danger", "sand", "wall"],
+    ["wall", "sand", "mud", "road", "sand", "wall"],
+    ["wall", "wall", "road", "danger", "wall", "wall"],
+    ["wall", "wall", "road", "road", "wall", "wall"],
+    ["wall", "wall", "mud", "danger", "wall", "wall"],
+    ["wall", "sand", "danger", "road", "sand", "wall"],
+    ["sand", "sand", "road", "danger", "sand", "sand"]
+  ]
+}

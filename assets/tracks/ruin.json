@@ -1,0 +1,13 @@
+{
+  "name": "ruin",
+  "grid": [
+    ["sand", "sand", "road", "road", "sand", "sand"],
+    ["wall", "road", "danger", "road", "sand", "mud"],
+    ["road", "road", "road", "danger", "sand", "sand"],
+    ["road", "wall", "danger", "danger", "sand", "mud"],
+    ["wall", "road", "danger", "road", "sand", "sand"],
+    ["road", "road", "danger", "road", "sand", "sand"],
+    ["road", "wall", "road", "danger", "sand", "wall"],
+    ["sand", "road", "road", "road", "mud", "sand"]
+  ]
+}

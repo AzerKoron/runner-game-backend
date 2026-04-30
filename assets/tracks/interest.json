@@ -1,0 +1,13 @@
+{
+  "name": "interest",
+  "grid": [
+    ["sand", "sand", "road", "road", "sand", "sand"],
+    ["sand", "wall", "wall", "road", "road", "wall"],
+    ["wall", "sand", "sand", "danger", "danger", "wall"],
+    ["wall", "wall", "mud", "road", "road", "wall"],
+    ["wall", "road", "road", "road", "wall", "sand"],
+    ["wall", "road", "danger", "sand", "wall", "sand"],
+    ["wall", "danger", "danger", "wall", "sand", "sand"],
+    ["wall", "road", "road", "sand", "sand", "mud"]
+  ]
+}

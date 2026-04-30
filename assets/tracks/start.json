@@ -1,0 +1,13 @@
+{
+  "name": "start",
+  "grid": [
+    ["road", "road", "road", "road", "road", "road"],
+    ["road", "road", "danger_2_3", "road", "road", "road"],
+    ["sand", "road", "road", "danger_2_3", "road", "sand"],
+    ["sand", "danger_2", "road", "road", "road", "mud"],
+    ["sand", "road", "road", "danger_2", "road", "sand"],
+    ["mud", "danger_2", "road", "danger", "danger", "mud"],
+    ["sand", "road", "road", "road", "sand", "sand"],
+    ["sand", "sand", "road", "road", "sand", "sand"]
+  ]
+}

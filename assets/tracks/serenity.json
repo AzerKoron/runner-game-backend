@@ -1,0 +1,13 @@
+{
+  "name": "serenity",
+  "grid": [
+    ["sand", "sand", "road", "road", "sand", "sand"],
+    ["sand", "sand", "road", "road", "sand", "sand"],
+    ["sand", "sand", "danger_2", "danger_2", "sand", "sand"],
+    ["mud", "sand", "road", "road", "sand", "mud"],
+    ["mud", "mud", "danger_2_3", "danger_2_3", "sand", "sand"],
+    ["sand", "mud", "road", "road", "sand", "mud"],
+    ["sand", "sand", "danger", "danger", "sand", "sand"],
+    ["sand", "sand", "road", "road", "sand", "sand"]
+  ]
+}

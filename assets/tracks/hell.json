@@ -1,0 +1,13 @@
+{
+  "name": "hell",
+  "grid": [
+    ["sand", "sand", "road", "road", "sand", "sand"],
+    ["sand", "sand", "danger", "danger", "sand", "wall"],
+    ["sand", "mud", "road", "road", "mud", "sand"],
+    ["sand", "wall", "road", "road", "wall", "sand"],
+    ["sand", "wall", "road", "road", "wall", "sand"],
+    ["sand", "mud", "road", "road", "mud", "sand"],
+    ["sand", "sand", "danger", "danger", "sand", "sand"],
+    ["sand", "sand", "road", "road", "sand", "danger"]
+  ]
+}

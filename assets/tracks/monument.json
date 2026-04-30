@@ -1,0 +1,13 @@
+{
+  "name": "monument",
+  "grid": [
+    ["sand", "sand", "road", "road", "sand", "sand"],
+    ["sand", "sand", "road", "road", "sand", "sand"],
+    ["danger", "mud", "wall", "wall", "wall", "sand"],
+    ["sand", "danger", "wall", "wall", "sand", "sand"],
+    ["sand", "sand", "wall", "wall", "sand", "sand"],
+    ["mud", "wall", "wall", "wall", "danger", "danger"],
+    ["sand", "wall", "wall", "wall", "sand", "sand"],
+    ["sand", "sand", "road", "road", "sand", "sand"]
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "bend",
+  "grid": [
+    ["sand", "sand", "road", "road", "sand", "sand"],
+    ["sand", "road", "danger", "road", "sand", "sand"],
+    ["sand", "danger", "road", "sand", "sand", "sand"],
+    ["sand", "road", "danger", "wall", "mud", "mud"],
+    ["sand", "danger", "road", "sand", "sand", "mud"],
+    ["wall", "sand", "wall", "road", "sand", "sand"],
+    ["sand", "sand", "danger", "danger", "sand", "sand"],
+    ["sand", "sand", "road", "road", "sand", "sand"]
+  ]
+}
